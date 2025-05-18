@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head><title>Student Registration</title></head>
+<body style="font-family:sans-serif; padding:20px; background:#f1f8e9; display:flex; justify-content:center; align-items:center; height:100vh;">
+    <div style="background:white; padding:30px 40px; border-radius:10px; box-shadow:0 4px 8px rgba(0,0,0,0.1); width:350px;">
+        <h2 style="text-align:center; color:#33691e;">Student Sign Up</h2>
+        <form action="StudentRegister" method="post">
+            <label>Name:</label><br>
+            <input type="text" name="name" required style="width:100%; padding:8px;"><br><br>
+
+            <label>Email:</label><br>
+            <input type="email" name="email" required style="width:100%; padding:8px;"><br><br>
+
+            <label>Password:</label><br>
+            <input type="password" name="password" required style="width:100%; padding:8px;"><br><br>
+
+            <button type="submit" style="width:100%; padding:10px; background-color:#558b2f; color:white; border:none; border-radius:5px; font-size:16px;">Register</button>
+        </form>
+
+        <hr style="margin:25px 0; border:none; border-top:1px solid #ccc;">
+
+        <div style="text-align:center;">
+            <p>Already registered?</p>
+            <a href="student_login.html">
+                <button style="padding:8px 16px; background-color:#33691e; color:white; border:none; border-radius:5px; font-size:14px;">Go to Login</button>
+            </a>
+        </div>
+    </div>
+</body>
+</html>

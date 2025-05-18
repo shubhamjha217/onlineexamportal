@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Teacher Portal</title>
+</head>
+<body style="font-family:sans-serif; padding:20px; background:#e3f2fd; display:flex; justify-content:center; align-items:center; height:100vh;">
+    <div style="background:white; padding:30px 40px; border-radius:10px; box-shadow:0 4px 8px rgba(0,0,0,0.1); width:350px;">
+        <h2 style="text-align:center; color:#0d47a1;">Teacher Sign Up</h2>
+        <form action="TeacherRegister" method="post">
+            <label>Name:</label><br>
+            <input type="text" name="name" required style="width:100%; padding:8px;"><br><br>
+
+            <label>Email:</label><br>
+            <input type="email" name="email" required style="width:100%; padding:8px;"><br><br>
+
+            <label>Password:</label><br>
+            <input type="password" name="password" required style="width:100%; padding:8px;"><br><br>
+
+            <button type="submit" style="width:100%; padding:10px; background-color:#1976d2; color:white; border:none; border-radius:5px; font-size:16px;">Register</button>
+        </form>
+
+        <hr style="margin:30px 0;">
+
+        <h2 style="text-align:center; color:#0d47a1;">Teacher Login</h2>
+        <form action="TeacherLogin" method="post">
+            <label>Email:</label><br>
+            <input type="email" name="email" required style="width:100%; padding:8px;"><br><br>
+
+            <label>Password:</label><br>
+            <input type="password" name="password" required style="width:100%; padding:8px;"><br><br>
+
+            <button type="submit" style="width:100%; padding:10px; background-color:#388e3c; color:white; border:none; border-radius:5px; font-size:16px;">Login</button>
+        </form>
+    </div>
+</body>
+</html>
